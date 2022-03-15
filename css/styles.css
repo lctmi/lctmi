@@ -11312,3 +11312,7 @@ body {
 		background-position: 0% 50%;
 	}
 }
+
+.contract {
+  overflow-wrap: break-word;
+}
