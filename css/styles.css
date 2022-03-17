@@ -43,7 +43,7 @@
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
-  --bs-dark-rgb: 33, 37, 41;
+  --bs-dark-rgb: 0, 0, 0;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
@@ -55,7 +55,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
+  --bs-body-color: #ffffff;
   --bs-body-bg: #fff;
 }
 
@@ -11285,24 +11285,25 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-/* body {
-  background: url("../assets/lctmi-bg.png") no-repeat center center fixed;
+body {
+  background: url("https://cortex.persona.co/w/700/q/94/i/b3b673c2984c000f83c66b9062773cc5a5cbad2e6be0d525c6907ea9d474865a/rainm.gif") no-repeat center center fixed;
   background-size: cover;
-} */
+  
+}
 
 :root {
   color-scheme: dark;
 }
 
 
-body {
-	background: linear-gradient(-45deg, #FF6700, #FF6500, #23a6d5, #23d5ab);
+/* body {
+	background: linear-gradient(-45deg, #00ff1b, #41cf1e, #23a6d5, #23d5ab);
 	background-size: 2000% 2000%;
 	animation: gradient 25s ease infinite;
 	height: 100vh;
-}
+} */
 
-@keyframes gradient {
+/* @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
 	}
@@ -11311,8 +11312,8 @@ body {
 	}
 	100% {
 		background-position: 0% 50%;
-	}
-}
+	} */
+/* } */
 
 .contract {
   overflow-wrap: break-word;
