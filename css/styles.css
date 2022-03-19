@@ -11286,7 +11286,14 @@ textarea.form-control-lg {
   }
 }
 body {
-  background: url("https://cortex.persona.co/w/700/q/94/i/b3b673c2984c000f83c66b9062773cc5a5cbad2e6be0d525c6907ea9d474865a/rainm.gif") no-repeat center center fixed;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.25), 
+    rgba(0, 0, 0, 0.25)
+  ),
+  url("../assets/money-rain.gif");
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position:center;
   background-size: cover;
   
 }
