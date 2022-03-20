@@ -11295,12 +11295,12 @@ body {
   background-attachment:fixed;
   background-position:center;
   background-size: cover;
+  -webkit-background-size: cover;
 }
 
 :root {
   color-scheme: dark;
 }
-
 
 /* body {
 	background: linear-gradient(-45deg, #00ff1b, #41cf1e, #23a6d5, #23d5ab);
